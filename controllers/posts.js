@@ -38,11 +38,10 @@ const posts = {
     }
   }),
   updatePosts: handleResponse.errorAsync(async (req, res, next) => {
-    const body = req.body;
-    const content = req.body.content.trim();
+    const content = req.body.content;
     const id = req.params.id;
     if (await Post.findById(`${id}`) !== null){
-      if(content){
+      if(content.trim()){
         const updatePost = await Post.findByIdAndUpdate(`${id}`, content, {new: true, runValidators: true});
         handleResponse.success(res, "資料修改成功", updatePost);
       }else{
