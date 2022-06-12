@@ -16,12 +16,12 @@ const uploadFiles = {
       clientId: process.env.IMGUR_CLIENT_ID,
       clientSecret: process.env.IMGUR_CLIENT_SECRET,
       refreshToken: process.env.IMGUR_REFRESH_TOKEN,
-  });
-  const response = await client.upload({
-      image: req.files[0].buffer.toString('base64'),
-      type: 'base64',
-      album: process.env.IMGUR_ALBUM_ID
-  });
+    });
+    const response = await client.upload({
+        image: req.files[0].buffer.toString('base64'),
+        type: 'base64',
+        album: process.env.IMGUR_ALBUM_ID
+    });
     handleResponse.success(res, "圖片上傳成功", response.data.link)
   })
 };
