@@ -318,12 +318,12 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWM0YzFjYmZmZjZiMTY5ZmQyZDM4OCIsImlhdCI6MTY1NDQxMDMwOSwiZXhwIjoxNjU1MDE1MTA5fQ.dqF3ezdzEBg_uM657CVfLljAYMS0TRdpKVlOAPdLHzs",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWM0YzFjYmZmZjZiMTY5ZmQyZDM4OCIsImlhdCI6MTY1NTAzNDcwOCwiZXhwIjoxNjU1NjM5NTA4fQ._MDdpKu7RbxPrY7AmzZq7rUKAOHHZlHVvwwDUyDwirg",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "https://gentle-headland-25499.herokuapp.com/users/user",
+					"raw": "https://gentle-headland-25499.herokuapp.com/users/user/629207680f4d2a3f42d765ac",
 					"protocol": "https",
 					"host": [
 						"gentle-headland-25499",
@@ -332,7 +332,8 @@
 					],
 					"path": [
 						"users",
-						"user"
+						"user",
+						"629207680f4d2a3f42d765ac"
 					]
 				}
 			},
@@ -345,7 +346,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWM0YzFjYmZmZjZiMTY5ZmQyZDM4OCIsImlhdCI6MTY1NDQxMDMwOSwiZXhwIjoxNjU1MDE1MTA5fQ.dqF3ezdzEBg_uM657CVfLljAYMS0TRdpKVlOAPdLHzs",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOWM0YzFjYmZmZjZiMTY5ZmQyZDM4OCIsImlhdCI6MTY1NTAzNDcwOCwiZXhwIjoxNjU1NjM5NTA4fQ._MDdpKu7RbxPrY7AmzZq7rUKAOHHZlHVvwwDUyDwirg",
 						"type": "text"
 					}
 				],
